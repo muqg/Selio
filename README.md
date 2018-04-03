@@ -1,8 +1,8 @@
 # Selio
 
-Selio is the result of my 3-year long experience in the domain of web development. It is the codebase that I've developed over the years and use as a jump-start backend when creating new websites. I've atempted to make it as lightweight, configureable, extensible and simple as possble. Selio is tested and runs on [PHP](http://php.net/) 7.0 and above.
+Selio is the result of my 3-year long experience in the domain of web development. It is the codebase that I've developed over the years and serves as a back-end framework. It aims to ease the creation of new, primarily small projects (while still being scalable) by providing out of the box solutions to some repetitive problems like database connections, routing, localization and more... Its main focus is to provide an easily extensible way to develop dynamic webpages with PHP by splitting them into smaller components. This doesn't mean that you can't leave the components aside and make use of the other time and effort saving features in combination with JavaScript libraries such as React and Vue to generate the front-end part of the page.
 
-Selio allows for object oriented component based page building and ajax handling which is easily extensible and scalable. Refer to the [documentation](https://github.com/muqg/Selio/wiki) for more information (or by the lack of such, you can temporarily visit the [quickstart](https://github.com/muqg/Selio/blob/master/Quickstart.md)).
+Dive into the [documentation](https://github.com/muqg/Selio/wiki) for more information (or by the lack of such, you can temporarily visit the [quickstart](https://github.com/muqg/Selio/blob/master/Quickstart.md)).
 
 ## Features
 Selio's .htaccess is configured to route URLs to root (/) path and then parses the URL within a PHP controller which determines and loads a relevant page or ajax handler. Amongst Selio's features are:
